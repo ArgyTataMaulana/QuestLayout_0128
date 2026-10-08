@@ -1,3 +1,5 @@
+package com.argy.questlayout_0128
+
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -20,7 +22,6 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.argy.questlayout_0128.R
 
 @Composable
 fun ActivityPertama(modifier: Modifier) {
@@ -43,7 +44,7 @@ fun ActivityPertama(modifier: Modifier) {
             )
         ){
         Row() {
-            val gambar = painterResource(id = R.drawable.logo.umy)
+            val gambar = painterResource(id = R.drawable.logo_umy)
             Image(
                 painter = gambar,
                 contentDescription = null,

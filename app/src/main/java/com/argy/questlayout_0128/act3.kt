@@ -1,5 +1,6 @@
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -38,6 +39,14 @@ fun ActivityPertama(modifier: Modifier) {
                 containerColor = Color.DarkGray
             )
         ){
+                Row() {
+                val gambar = painterResource(id = R.drawable.logo.umy)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier.padding(top = 15.dp)
+                )
+            }
         }
     }
 }
